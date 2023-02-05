@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#222" />
+    <title>Halloween</title>
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="#" class="nav__logo">
+                <img src="img/trick-treat5-img.png" alt="logo" class="nav__logo-img">
+                Halloween
+            </a>
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a class="nav__link" href="#">Home</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#about">About</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#candy">Candy</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#new">New</a></li>
+                    <li class="nav__item nav__item--support"><a class="nav__link" href="#newsletter">Newsletter</a></li>
+                </ul>
+                <button class="nav__close nav__icons">
+                    <i class="bx bx-x"></i>
+                </button>
+            </div>
+            <div>
+                <button class="nav__open nav__icons">
+                    <i class="bx bx-grid-alt"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="s1">
+            <div class="contenedor">
+                <div class="s1__flex">
+                    <div class="s1__picture">
+                        <img class="s1__img" src="img/footer1-img.png" alt="">
+                        <div class="s1__descripcion">
+                            <span class="s1__descripcion-title">The Labu "Reiza"</span>
+                            <span>La calabaza viva</span>
+                        </div>
+                    </div>
+                    <div class="s1__info">
+                        <span class="s1__subtitle">#1 Fantasma Más Aterrador</span>
+                        <h1 class="s1__title">UOOOO <br> TRUCO O <br> TRATO!!</h1>
+                        <p class="s1__paragraph">Eres adorable, simpático, inteligente, pero sobre todo eres un fantasma. ¡Feliz día fantasma!, Porque todo lo bueno empieza con un poco de miedo</p>
+                        <div class="s1__actions">
+                            <a class="s1__link-reservar" href="#">Reservar Ahora</a>
+                            <a class="s1__link-audio" href="#">Audio Grabado <i class="bx bx-right-arrow-alt"></i></a>
+                            <!-- Audio con JS se puede de varias formas -->
+                            <audio id="audio" src="audio/I-see-you-Purge-Ringtone.mp3" muted controls></audio>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="s2" id="about">
+            <div class="contenedor">
+                <div class="s2__flex">
+                    <div class="s2__info">
+                        <h2 class="s2__title">Acerca del Halloween</h2>
+                        <p class="s2__paragraph">Halloween o Hallowe'en, también conocido como Noche de Brujas, Víspera de Difuntos, Víspera de Todos los Santos, Noche de los Muertos, Noche de Difuntos o Samhain, es una celebración internacional que se celebra el 31 de octubre, víspera de la fiesta cristiana occidental del Día de Todos los Santos.</p>
+                        <a class="s2__btn" href="#">Saber mas del halloween</a>
+                    </div>
+                    <div class="s2__picture">
+                        <img class="s2__img" src="img/about-img.png" alt="about-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="s3" id="candy">
+            <div class="contenedor">
+                <h2 class="s3__title">Susto Favorito</h2>
+                <ul class="s3__opciones">
+                    <li class="s3__item">
+                        <img src="img/category1-img.png" alt="c1">
+                        <h3>Fantasmas</h3>
+                        <p>Hoy está permitido ser un pelín fantasma</p>
+                    </li>
+                    <li class="s3__item">
+                        <img src="img/category2-img.png" alt="c2">
+                        <h3>Calabazas</h3>
+                        <p>Hoy reparte todas las calabazas que te hayan dado</p>
+                    </li>
+                    <li class="s3__item">
+                        <img src="img/category3-img.png" alt="c3">
+                        <h3>Sombreros</h3>
+                        <p>Si el miedo llama a tu puerta, abre para regalarle dulces</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="s4">
+            <div class="contenedor">
+                <h2>Truco o Trato</h2>
+                <div class="s4__opciones">
+                    <div class="s4__item">
+                        <img src="img/trick-treat1-img.png" alt="trick-treat 1">
+                        <h3>Toffe</h3>
+                        <p>Candy</p>
+                        <span>$18.99</span>
+                    </div>
+                    <div class="s4__item">
+                        <img src="img/trick-treat2-img.png" alt="trick-treat 2">
+                        <h3>Bone</h3>
+                        <p>Accesory</p>
+                        <span>$8.99</span>
+                    </div>
+                    <div class="s4__item">
+                        <img src="img/trick-treat3-img.png" alt="trick-treat 3">
+                        <h3>Scarecrow</h3>
+                        <p>Accesory</p>
+                        <span>$15.99</span>
+                    </div>
+                    <div class="s4__item">
+                        <img src="img/trick-treat4-img.png" alt="trick-treat 4">
+                        <h3>Candy Cane</h3>
+                        <p>Candy</p>
+                        <span>$7.99</span>
+                    </div>
+                    <div class="s4__item">
+                        <img src="img/trick-treat5-img.png" alt="trick-treat 5">
+                        <h3>Calabaza</h3>
+                        <p>Accesory</p>
+                        <span>$10.99</span>
+                    </div>
+                    <div class="s4__item">
+                        <img src="img/trick-treat6-img.png" alt="trick-treat 6">
+                        <h3>Fantasma</h3>
+                        <p>Accesory</p>
+                        <span>$11.99</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="s5" id="new">
+            <div class="contenedor">
+                <h2>Los recien llegados</h2>
+                <div class="s5__opciones">
+                    <div class="s5__item">
+                        <span class="s5__new">new</span>
+                        <img src="img/new1-img.png" alt="new 1">
+                        <h3>Haunted House</h3>
+                        <p>Accessory</p>
+                        <span>$14.99</span>
+                    </div>
+                    <div class="s5__item">
+                        <span class="s5__new">new</span>
+                        <img src="img/new2-img.png" alt="new 2">
+                        <h3>Halloween Candle</h3>
+                        <p>Accessory</p>
+                        <span>$11.99</span>
+                    </div>
+                    <div class="s5__item">
+                        <span class="s5__new">new</span>
+                        <img src="img/new3-img.png" alt="new 3">
+                        <h3>Halloween Candle</h3>
+                        <p>Accessory</p>
+                        <span>$11.99</span>
+                    </div>
+                    <div class="s5__item">
+                        <span class="s5__new">new</span>
+                        <img src="img/new4-img.png" alt="new 4">
+                        <h3>Halloween Candle</h3>
+                        <p>Accessory</p>
+                        <span>$11.99</span>
+                    </div>
+                    <div class="s5__item">
+                        <span class="s5__new">new</span>
+                        <img src="img/new5-img.png" alt="new 5">
+                        <h3>Halloween Candle</h3>
+                        <p>Accessory</p>
+                        <span>$11.99</span>
+                    </div>
+                    <div class="s5__item">
+                        <span class="s5__new">new</span>
+                        <img src="img/new6-img.png" alt="new 6">
+                        <h3>Halloween Candle</h3>
+                        <p>Accessory</p>
+                        <span>$11.99</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="s6">
+            <div class="contenedor">
+                <div class="s6__info">
+                    <h2>50% de descuento <br> Sobre nuestros productos</h2>
+                    <a class="s6__btn" href="#">Ver nuevos productos</a>
+                    <img class="s6__img" src="img/discount-img.png" alt="discount">
+                </div>
+            </div>
+        </section>
+
+        <section class="s7" id="newsletter">
+            <div class="contenedor">
+                <div class="s7__info">
+                    <h2>Our Newsletter</h2>
+                    <p>Te estaremos informando de todas las novedades del halloween, descuida nada que de susto</p>
+                    <form method="post">
+                        <div class="s7__subscribe">
+                            <input type="email" name="email" placeholder="Enter your email">
+                            <button>Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="footer__info">
+                <a class="footer__logo" href="">
+                    <img class="footer__logo-img" src="img/favicon.png" alt="favicon">
+                    Halloween
+                </a>
+                <p>Disfruta de la vida, tructo o trato</p>
+                <ul class="footer__redes">
+                    <li>
+                        <a class="footer__red-social" href="#" target="_blank">
+                            <i class='bx bxl-meta'></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="footer__red-social" href="#" target="_blank">
+                            <i class='bx bxl-instagram' ></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="footer__red-social" href="#" target="_blank">
+                            <i class='bx bxl-twitter' ></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
